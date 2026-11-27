@@ -1,0 +1,2304 @@
+{
+ "generated_at": "2026-11-27T01:53:09Z",
+ "items": [
+  {
+   "id": "github.com/gary23w/f-ck_data_brokers",
+   "name": "f-ck_data_brokers",
+   "score": 64.88,
+   "confidence": "Média",
+   "metrics": {
+    "gh:1473500322": 400,
+    "hn:50658191": 221
+   }
+  },
+  {
+   "id": "github.com/howznguyen/nookdeck",
+   "name": "Nookdeck",
+   "score": 55.49,
+   "confidence": "Média",
+   "metrics": {
+    "ph:1330263": 79,
+    "gh:1462388337": 79
+   }
+  },
+  {
+   "id": "ph:1329592",
+   "name": "Hub",
+   "score": 49.65,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329592": 360
+   }
+  },
+  {
+   "id": "github.com/erkamyaman/rust-anything",
+   "name": "rust-anything",
+   "score": 49.64,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459971684": 10238
+   }
+  },
+  {
+   "id": "github.com/alesha-pro/llm.asm",
+   "name": "llm.asm",
+   "score": 49.4,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1471422729": 1564
+   }
+  },
+  {
+   "id": "github.com/el4cteo/fast-anything",
+   "name": "fast-anything",
+   "score": 49.16,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466635339": 4246
+   }
+  },
+  {
+   "id": "ph:1329270",
+   "name": "QA.tech MCP",
+   "score": 48.95,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329270": 188
+   }
+  },
+  {
+   "id": "github.com/nexu-io/opengame",
+   "name": "opengame",
+   "score": 48.92,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1471624301": 992
+   }
+  },
+  {
+   "id": "github.com/indigo-0167/universal-game-mod-manager",
+   "name": "universal-game-mod-manager",
+   "score": 48.68,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1469329665": 1300
+   }
+  },
+  {
+   "id": "github.com/sybil-solutions/inference-optimisation-skill",
+   "name": "inference-optimisation-skill",
+   "score": 48.44,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460417668": 2822
+   }
+  },
+  {
+   "id": "ph:1303130",
+   "name": "ExtraOrbital",
+   "score": 48.24,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1303130": 167
+   }
+  },
+  {
+   "id": "github.com/gulivan/worker755",
+   "name": "I built a game where you are an LLM's subagent",
+   "score": 48.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50599762": 362
+   }
+  },
+  {
+   "id": "github.com/chanke17/kurocat",
+   "name": "KuroCat",
+   "score": 48.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466700014": 1394,
+    "gh:1468140561": 677
+   }
+  },
+  {
+   "id": "github.com/pierridotite/mobile-agent-testers",
+   "name": "mobile-agent-testers",
+   "score": 47.95,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460452633": 2523
+   }
+  },
+  {
+   "id": "github.com/ink-q/agy-fast",
+   "name": "agy-fast",
+   "score": 47.72,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1463683138": 1727
+   }
+  },
+  {
+   "id": "ph:1329374",
+   "name": "MyClaw 3.0",
+   "score": 47.53,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329374": 337
+   }
+  },
+  {
+   "id": "github.com/basil0879/steam-game-idler",
+   "name": "steam-game-idler",
+   "score": 47.48,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1469320737": 681
+   }
+  },
+  {
+   "id": "github.com/erkamyaman/safe-anything",
+   "name": "safe-anything",
+   "score": 47.23,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1467769720": 790
+   }
+  },
+  {
+   "id": "chszlab.github.io",
+   "name": "An agent skill that optimizes code with falsifiable hypotheses",
+   "score": 47.09,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50611593": 129
+   }
+  },
+  {
+   "id": "github.com/czzzzzzj/mdldm-maitian",
+   "name": "mdldm-maitian",
+   "score": 46.99,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457362196": 2280
+   }
+  },
+  {
+   "id": "ph:1329325",
+   "name": "Bifura",
+   "score": 46.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329325": 143
+   }
+  },
+  {
+   "id": "github.com/uxpilot-ai/frontend-design-skill",
+   "name": "frontend-design-skill",
+   "score": 46.52,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1472261422": 195
+   }
+  },
+  {
+   "id": "github.com/sous-labs/songe",
+   "name": "songe",
+   "score": 46.27,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1465322684": 905
+   }
+  },
+  {
+   "id": "dailydev.gg",
+   "name": "Dailydev",
+   "score": 46.25,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50661061": 3
+   }
+  },
+  {
+   "id": "ph:1323240",
+   "name": "Airbot",
+   "score": 46.12,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1323240": 301
+   }
+  },
+  {
+   "id": "github.com/opensetlabs/openset-llm",
+   "name": "openset-llm",
+   "score": 46.03,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456590729": 1740
+   }
+  },
+  {
+   "id": "github.com/batanus/lip-dictation",
+   "name": "Silent dictation for Claude Code via on-device lip reading",
+   "score": 45.97,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50655639": 15
+   }
+  },
+  {
+   "id": "github.com/developing-gamer/agent-sim",
+   "name": "agent-sim",
+   "score": 45.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466927775": 615
+   }
+  },
+  {
+   "id": "github.com/w01fb0ss/pibot",
+   "name": "PiBot",
+   "score": 45.55,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466272233": 656
+   }
+  },
+  {
+   "id": "ph:1331434",
+   "name": "Pax by Pydantic",
+   "score": 45.42,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331434": 120
+   }
+  },
+  {
+   "id": "github.com/matheusmongarde/garimpo",
+   "name": "garimpo",
+   "score": 45.31,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1471003006": 217
+   }
+  },
+  {
+   "id": "github.com/el4cteo/shrink-anything",
+   "name": "shrink-anything",
+   "score": 45.07,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1468977659": 339
+   }
+  },
+  {
+   "id": "github.com/bytebuildsmall/claude-desktop",
+   "name": "claude-desktop",
+   "score": 44.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1470089013": 254
+   }
+  },
+  {
+   "id": "ph:1330192",
+   "name": "Kagi Mail",
+   "score": 44.72,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330192": 103
+   }
+  },
+  {
+   "id": "github.com/boringmarketer/boring-marketing-skills",
+   "name": "boring-marketing-skills",
+   "score": 44.59,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460180740": 866
+   }
+  },
+  {
+   "id": "github.com/harsh-1877/dev-mem",
+   "name": "Dev-Mem",
+   "score": 44.59,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50657069": 7
+   }
+  },
+  {
+   "id": "github.com/matheusmongarde/central",
+   "name": "central",
+   "score": 44.35,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1472449381": 84
+   }
+  },
+  {
+   "id": "github.com/mankidev/antialgorithm",
+   "name": "antialgorithm",
+   "score": 44.11,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457605310": 904
+   }
+  },
+  {
+   "id": "ph:1331268",
+   "name": "Doodle",
+   "score": 44.02,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331268": 101
+   }
+  },
+  {
+   "id": "github.com/jimliu/open-artifact",
+   "name": "open-artifact",
+   "score": 43.75,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460814476": 633
+   }
+  },
+  {
+   "id": "github.com/adabi0304/studioonepro7-release",
+   "name": "studioonepro7-release",
+   "score": 43.75,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466776847": 340
+   }
+  },
+  {
+   "id": "github.com/praseesh369/youtube-ai-video-editing-system",
+   "name": "youtube-ai-video-editing-system",
+   "score": 43.39,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466783475": 338
+   }
+  },
+  {
+   "id": "ph:1329841",
+   "name": "Clary",
+   "score": 43.31,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329841": 99
+   }
+  },
+  {
+   "id": "carry.md",
+   "name": "Carry",
+   "score": 43.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50637995": 29
+   }
+  },
+  {
+   "id": "github.com/cr4zyp4ul/quicken-deluxe",
+   "name": "quicken-deluxe",
+   "score": 43.15,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466773035": 338
+   }
+  },
+  {
+   "id": "github.com/daax116/startall-back-utility",
+   "name": "startall-back-utility",
+   "score": 42.79,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466777193": 337
+   }
+  },
+  {
+   "id": "github.com/hariachayan5-dotcom/sp-flash-tool",
+   "name": "sp-flash-tool",
+   "score": 42.79,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466777430": 337
+   }
+  },
+  {
+   "id": "ph:1329956",
+   "name": "Hiring Right Now",
+   "score": 42.6,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329956": 205
+   }
+  },
+  {
+   "id": "github.com/jomicat1989-dotcom/rust-external-trainer-tool",
+   "name": "rust-external-trainer-tool",
+   "score": 42.43,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466774745": 337
+   }
+  },
+  {
+   "id": "github.com/rockford007/xyplorer-file-manager",
+   "name": "xyplorer-file-manager",
+   "score": 42.19,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466783201": 336
+   }
+  },
+  {
+   "id": "ph:1330907",
+   "name": "DeskFleet",
+   "score": 41.9,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330907": 87
+   }
+  },
+  {
+   "id": "github.com/official00shivansh-eng/ultra-iso",
+   "name": "ultra-iso",
+   "score": 41.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466779902": 336
+   }
+  },
+  {
+   "id": "github.com/venkateshgorityala/voicemod-audio-modifier",
+   "name": "voicemod-audio-modifier",
+   "score": 41.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466781169": 336
+   }
+  },
+  {
+   "id": "openfal.org",
+   "name": "Openfal",
+   "score": 41.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50647219": 15
+   }
+  },
+  {
+   "id": "github.com/dagn3009-cyber/sylenth-1-configuration-utility",
+   "name": "sylenth-1-configuration-utility",
+   "score": 41.47,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466777934": 336
+   }
+  },
+  {
+   "id": "github.com/ysunyang4/nexus",
+   "name": "NEXUS",
+   "score": 41.32,
+   "confidence": "Média",
+   "metrics": {
+    "gh:1456652206": 510,
+    "ph:1330566": 61
+   }
+  },
+  {
+   "id": "github.com/jshami391-bit/scrcpy-screen-mirroring",
+   "name": "scrcpy-screen-mirroring",
+   "score": 41.23,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466775424": 336
+   }
+  },
+  {
+   "id": "ph:1330977",
+   "name": "Remora",
+   "score": 41.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330977": 81
+   }
+  },
+  {
+   "id": "github.com/dongarenikhilit047-star/portfolio-rebalancer",
+   "name": "portfolio-rebalancer",
+   "score": 40.98,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466710080": 338
+   }
+  },
+  {
+   "id": "github.com/rahul9350125/photo-commander",
+   "name": "photo-commander",
+   "score": 40.74,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466706246": 336
+   }
+  },
+  {
+   "id": "bedolpab.github.io",
+   "name": "Anthropic and OpenAI Math Tracker",
+   "score": 40.7,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50652560": 8
+   }
+  },
+  {
+   "id": "github.com/ayux777/metatrader-5-bot",
+   "name": "metatrader-5-bot",
+   "score": 40.51,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466657119": 338
+   }
+  },
+  {
+   "id": "github.com/onatm/rustling",
+   "name": "Rust agent with an Inkling 2 Mini inference engine for Apple Silicon",
+   "score": 40.41,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50646482": 13
+   }
+  },
+  {
+   "id": "github.com/njoniktu5/microstation-utility",
+   "name": "microstation-utility",
+   "score": 40.27,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466670563": 336
+   }
+  },
+  {
+   "id": "github.com/jorgezaltoo-design/microsoft-visio",
+   "name": "microsoft-visio",
+   "score": 40.02,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466668768": 336
+   }
+  },
+  {
+   "id": "ph:1329327",
+   "name": "Canva MCP",
+   "score": 39.79,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329327": 184
+   }
+  },
+  {
+   "id": "github.com/fitzner88/microsoft-project",
+   "name": "microsoft-project",
+   "score": 39.78,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466666024": 336
+   }
+  },
+  {
+   "id": "github.com/penielny/selenia",
+   "name": "Selenia",
+   "score": 39.59,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50654686": 5
+   }
+  },
+  {
+   "id": "github.com/gribblejustin8-lang/music-maker-unlimited",
+   "name": "music-maker-unlimited",
+   "score": 39.55,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466680960": 335
+   }
+  },
+  {
+   "id": "joonoo.art",
+   "name": "Keeping faces and features consistent across 24 AI-driven comic pages",
+   "score": 39.3,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50631791": 21
+   }
+  },
+  {
+   "id": "github.com/23080960124/ibm-spss-statistics",
+   "name": "ibm-spss-statistics",
+   "score": 39.3,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466625246": 337
+   }
+  },
+  {
+   "id": "ph:1326096",
+   "name": "Watch Reader",
+   "score": 39.09,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1326096": 78
+   }
+  },
+  {
+   "id": "github.com/manishpandeya/melodyne-5",
+   "name": "melodyne-5",
+   "score": 39.06,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466650114": 335
+   }
+  },
+  {
+   "id": "github.com/yummy2288/fonetrans-desktop-utility",
+   "name": "fonetrans-desktop-utility",
+   "score": 38.82,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466605350": 337
+   }
+  },
+  {
+   "id": "github.com/dhruv2710-hub/cellebrite-ufed",
+   "name": "cellebrite-ufed",
+   "score": 38.58,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466560083": 339
+   }
+  },
+  {
+   "id": "github.com/juniordroid/better-discord-client",
+   "name": "better-discord-client",
+   "score": 38.22,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466552156": 339
+   }
+  },
+  {
+   "id": "github.com/urvee003/bloxshade-for-roblox",
+   "name": "bloxshade-for-roblox",
+   "score": 38.22,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466553379": 339
+   }
+  },
+  {
+   "id": "github.com/graphvein/graphvein",
+   "name": "Graphvein",
+   "score": 38.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50656925": 3
+   }
+  },
+  {
+   "id": "github.com/dillithdillith4-cell/autodesk-cfd",
+   "name": "autodesk-cfd",
+   "score": 37.86,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466549501": 339
+   }
+  },
+  {
+   "id": "ph:1330867",
+   "name": "Flurra",
+   "score": 37.67,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330867": 77
+   }
+  },
+  {
+   "id": "ph:1330866",
+   "name": "Transept AI",
+   "score": 37.67,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330866": 77
+   }
+  },
+  {
+   "id": "github.com/bratzietiffany/imobie-anytrans",
+   "name": "imobie-anytrans",
+   "score": 37.62,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466628617": 335
+   }
+  },
+  {
+   "id": "github.com/certificateverfication/chimera-utility",
+   "name": "chimera-utility",
+   "score": 37.26,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466561146": 338
+   }
+  },
+  {
+   "id": "github.com/drillryte/easy-worship",
+   "name": "easy-worship",
+   "score": 37.26,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466583654": 337
+   }
+  },
+  {
+   "id": "github.com/gobjb/directory-opus-launch",
+   "name": "directory-opus-launch",
+   "score": 36.9,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466572590": 337
+   }
+  },
+  {
+   "id": "inferedge-ai.github.io",
+   "name": "Evalkit for Improving Your Agents",
+   "score": 36.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50655285": 3
+   }
+  },
+  {
+   "id": "github.com/yrf15gamin-pixel/ashampoo-winoptimizer-pro",
+   "name": "ashampoo-winoptimizer-pro",
+   "score": 36.66,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466547889": 338
+   }
+  },
+  {
+   "id": "github.com/youssefco1999-hash/aiseesoft-launch-pro",
+   "name": "aiseesoft-launch-pro",
+   "score": 36.42,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466546866": 338
+   }
+  },
+  {
+   "id": "ph:1330892",
+   "name": "iwantmy.app",
+   "score": 36.27,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330892": 76
+   }
+  },
+  {
+   "id": "github.com/selamumeshesha/dxo-photolab-10",
+   "name": "dxo-photolab-10",
+   "score": 36.18,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466582570": 336
+   }
+  },
+  {
+   "id": "github.com/sadiqameen2005-pixel/display-fusion",
+   "name": "display-fusion",
+   "score": 35.94,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466577793": 336
+   }
+  },
+  {
+   "id": "github.com/gaichayoubb-hub/directory-opus-utility",
+   "name": "directory-opus-utility",
+   "score": 35.7,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466572149": 336
+   }
+  },
+  {
+   "id": "ph:1330187",
+   "name": "Mime",
+   "score": 35.57,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330187": 75
+   }
+  },
+  {
+   "id": "github.com/redwannn/avid-media-composer",
+   "name": "avid-media-composer",
+   "score": 35.34,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466550855": 337
+   }
+  },
+  {
+   "id": "github.com/speedydx/delta-force-trainer",
+   "name": "delta-force-trainer",
+   "score": 35.34,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466569422": 336
+   }
+  },
+  {
+   "id": "draftmux.raine.dev",
+   "name": "Draftmux",
+   "score": 35.0,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50654378": 3
+   }
+  },
+  {
+   "id": "github.com/wezterp/daemon-pro",
+   "name": "daemon-pro",
+   "score": 34.98,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466566590": 336
+   }
+  },
+  {
+   "id": "ph:1331053",
+   "name": "Ground",
+   "score": 34.86,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331053": 75
+   }
+  },
+  {
+   "id": "github.com/pravinak1188-design/ashampoo-uninstaller",
+   "name": "ashampoo-uninstaller",
+   "score": 34.62,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466545590": 337
+   }
+  },
+  {
+   "id": "github.com/parthivvinod95-blip/clion-desktop",
+   "name": "clion-desktop",
+   "score": 34.62,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466563958": 336
+   }
+  },
+  {
+   "id": "firevoice.fabwaseem.com",
+   "name": "FireVoice",
+   "score": 34.59,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50623038": 15
+   }
+  },
+  {
+   "id": "github.com/genesisagentinfra/genesis",
+   "name": "Genesis Map",
+   "score": 34.3,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50623965": 14
+   }
+  },
+  {
+   "id": "github.com/maslah44/cinebench-benchmark",
+   "name": "cinebench-benchmark",
+   "score": 34.26,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466561389": 336
+   }
+  },
+  {
+   "id": "github.com/mesharimdawood-lgtm/discord-server-cloner",
+   "name": "discord-server-cloner",
+   "score": 34.02,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466574335": 335
+   }
+  },
+  {
+   "id": "ph:1331478",
+   "name": "Superframes",
+   "score": 33.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331478": 74
+   }
+  },
+  {
+   "id": "ph:1331174",
+   "name": "Upsolve Harness 2.0",
+   "score": 33.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331174": 74
+   }
+  },
+  {
+   "id": "github.com/rafiiiakmall-cpu/aida-64-extreme",
+   "name": "aida-64-extreme",
+   "score": 33.77,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466544364": 336
+   }
+  },
+  {
+   "id": "github.com/cerulion-inc/cerulion",
+   "name": "Cerulion",
+   "score": 33.75,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50635055": 10
+   }
+  },
+  {
+   "id": "github.com/cleidsonmachadoalves45-byte/adobe-audition",
+   "name": "adobe-audition",
+   "score": 33.41,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466541203": 336
+   }
+  },
+  {
+   "id": "github.com/anasarfat2024-ui/adobe-substance-3d",
+   "name": "adobe-substance-3d",
+   "score": 33.41,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466540432": 336
+   }
+  },
+  {
+   "id": "kradle.ai",
+   "name": "KradleBench",
+   "score": 33.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50608604": 16
+   }
+  },
+  {
+   "id": "github.com/upanshu121/ashampoo-uninstaller-utility",
+   "name": "ashampoo-uninstaller-utility",
+   "score": 33.05,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466545635": 335
+   }
+  },
+  {
+   "id": "github.com/randomhomelseman/cubase-studio",
+   "name": "cubase-studio",
+   "score": 32.81,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466526356": 335
+   }
+  },
+  {
+   "id": "ph:1330572",
+   "name": "Hello Transcribe 5",
+   "score": 32.75,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330572": 73
+   }
+  },
+  {
+   "id": "github.com/hovocope135-tech/dsh-projects",
+   "name": "DSH-projects",
+   "score": 32.57,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1461076894": 504
+   }
+  },
+  {
+   "id": "lightscale.ai",
+   "name": "Lightscale AI",
+   "score": 32.36,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50639615": 7
+   }
+  },
+  {
+   "id": "github.com/lukendeasy/open-diagram",
+   "name": "open-diagram",
+   "score": 32.33,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1463127932": 417
+   }
+  },
+  {
+   "id": "github.com/sthamann/awesome-agentic-commerce",
+   "name": "awesome-agentic-commerce",
+   "score": 32.09,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1469915034": 132
+   }
+  },
+  {
+   "id": "github.com/jackson-cmd/claude-multi-desktop",
+   "name": "claude-multi-desktop",
+   "score": 31.85,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459535564": 485
+   }
+  },
+  {
+   "id": "github.com/clockoli/clockoli",
+   "name": "We replaced our time tracking SaaS with a Git repository",
+   "score": 31.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50627008": 9
+   }
+  },
+  {
+   "id": "ph:1330416",
+   "name": "FocusHaze",
+   "score": 31.69,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330416": 72
+   }
+  },
+  {
+   "id": "ph:1330938",
+   "name": "OpenChat",
+   "score": 31.69,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330938": 72
+   }
+  },
+  {
+   "id": "github.com/ankurmans/caldrin-search-oss",
+   "name": "caldrin-search-oss",
+   "score": 31.61,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1471355286": 80
+   }
+  },
+  {
+   "id": "github.com/ognjenadzic28/hush",
+   "name": "Hush",
+   "score": 31.25,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50651523": 3
+   }
+  },
+  {
+   "id": "ph:1330885",
+   "name": "Antipode",
+   "score": 30.64,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330885": 71
+   }
+  },
+  {
+   "id": "ph:1327537",
+   "name": "Chunkify",
+   "score": 29.93,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1327537": 70
+   }
+  },
+  {
+   "id": "juncts.com",
+   "name": "Juncts",
+   "score": 29.86,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50623175": 9
+   }
+  },
+  {
+   "id": "github.com/sandeepai369/agent-first-browse",
+   "name": "Agent-first-browse",
+   "score": 29.45,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50622623": 9
+   }
+  },
+  {
+   "id": "ph:1331149",
+   "name": "MeetFolks",
+   "score": 28.88,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331149": 70
+   }
+  },
+  {
+   "id": "ph:1330273",
+   "name": "MusicProductionAI",
+   "score": 28.88,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330273": 70
+   }
+  },
+  {
+   "id": "github.com/natsu0529/agent-mcts",
+   "name": "agent-mcts",
+   "score": 28.47,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50589235": 16
+   }
+  },
+  {
+   "id": "ph:1330423",
+   "name": "Postmaster of Puppets",
+   "score": 27.82,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330423": 68
+   }
+  },
+  {
+   "id": "ph:1330518",
+   "name": "InfraThrone DevOps Park",
+   "score": 27.12,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330518": 67
+   }
+  },
+  {
+   "id": "ph:1331389",
+   "name": "AgentDE",
+   "score": 26.41,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331389": 67
+   }
+  },
+  {
+   "id": "github.com/logitcai/tinybrain",
+   "name": "tinybrain",
+   "score": 26.08,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456264552": 516
+   }
+  },
+  {
+   "id": "github.com/fus3r/margincue",
+   "name": "MarginCue",
+   "score": 25.97,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50641783": 4
+   }
+  },
+  {
+   "id": "github.com/waw666waw666/registerhub",
+   "name": "RegisterHub",
+   "score": 25.84,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459669299": 402
+   }
+  },
+  {
+   "id": "ph:1331155",
+   "name": "WhipDesk",
+   "score": 25.7,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331155": 65
+   }
+  },
+  {
+   "id": "github.com/google-deepmind/robotics-antigravity-plugin",
+   "name": "robotics-antigravity-plugin",
+   "score": 25.6,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460429608": 382
+   }
+  },
+  {
+   "id": "github.com/op7418/guizang-magi2-skill",
+   "name": "guizang-magi2-skill",
+   "score": 25.36,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1471498665": 62
+   }
+  },
+  {
+   "id": "avva.chat",
+   "name": "Avva",
+   "score": 25.28,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50641710": 4
+   }
+  },
+  {
+   "id": "github.com/zadescoxp/order-flow-mcp",
+   "name": "order-flow-mcp",
+   "score": 25.12,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1471353600": 59
+   }
+  },
+  {
+   "id": "github.com/zou172866/antigravity-agy-dart",
+   "name": "Antigravity-agy-dart",
+   "score": 24.88,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1465415390": 208
+   }
+  },
+  {
+   "id": "tryanvil.dev",
+   "name": "Anvil has won pricing among AI web builders plan starting at $5",
+   "score": 24.86,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50648165": 3
+   }
+  },
+  {
+   "id": "ph:1290206",
+   "name": "ServNook",
+   "score": 23.95,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1290206": 63
+   }
+  },
+  {
+   "id": "ph:1330765",
+   "name": "Ottante",
+   "score": 23.95,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330765": 63
+   }
+  },
+  {
+   "id": "github.com/lumidarin/agy-capsule",
+   "name": "agy-capsule",
+   "score": 23.44,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457736163": 373
+   }
+  },
+  {
+   "id": "modelxare.com",
+   "name": "ModelXare",
+   "score": 23.34,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50634489": 5
+   }
+  },
+  {
+   "id": "mole.so",
+   "name": "Mole",
+   "score": 22.91,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50633329": 5
+   }
+  },
+  {
+   "id": "ph:1331659",
+   "name": "Claude-Mem Cloud Sync",
+   "score": 22.88,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1331659": 62
+   }
+  },
+  {
+   "id": "github.com/sao-coding/sightline",
+   "name": "Sightline",
+   "score": 22.64,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50639090": 4
+   }
+  },
+  {
+   "id": "ph:1328447",
+   "name": "Snag by Parallel",
+   "score": 21.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1328447": 143
+   }
+  },
+  {
+   "id": "slashobserve.com",
+   "name": "SlashObserve",
+   "score": 21.53,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50623636": 6
+   }
+  },
+  {
+   "id": "github.com/7wdn/7paws",
+   "name": "7paws",
+   "score": 20.55,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1467710114": 128
+   }
+  },
+  {
+   "id": "github.com/vaibhav-space/my-ai-coding-workflow",
+   "name": "my-ai-coding-workflow",
+   "score": 20.31,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457786110": 348
+   }
+  },
+  {
+   "id": "github.com/mario12358/telesma",
+   "name": "Telesma",
+   "score": 20.14,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50641714": 3
+   }
+  },
+  {
+   "id": "trixapp.ai",
+   "name": "Trix",
+   "score": 20.14,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50605218": 8
+   }
+  },
+  {
+   "id": "github.com/scarif-labs/horus",
+   "name": "Horus",
+   "score": 20.14,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50627186": 5
+   }
+  },
+  {
+   "id": "github.com/w1ccc/sap-data-mcp",
+   "name": "sap-data-mcp",
+   "score": 20.07,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1465577232": 177
+   }
+  },
+  {
+   "id": "github.com/cybedefend/cybedefend",
+   "name": "cybedefend",
+   "score": 19.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1468954515": 94
+   }
+  },
+  {
+   "id": "github.com/piomin/ai-software-factory",
+   "name": "ai-software-factory",
+   "score": 19.59,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1463416046": 221
+   }
+  },
+  {
+   "id": "ph:1328887",
+   "name": "Koed",
+   "score": 19.36,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1328887": 113
+   }
+  },
+  {
+   "id": "github.com/yzsind/mydb",
+   "name": "mydb",
+   "score": 19.35,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460661203": 206
+   }
+  },
+  {
+   "id": "github.com/stellenbosch-technologies/rhebok",
+   "name": "Rhebok",
+   "score": 19.3,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50635912": 4
+   }
+  },
+  {
+   "id": "github.com/bitq-m/awesome-antigravity-plugins",
+   "name": "awesome-antigravity-plugins",
+   "score": 19.11,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1468167288": 80
+   }
+  },
+  {
+   "id": "checkmyapp.dev",
+   "name": "CheckMyApp",
+   "score": 19.03,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50635545": 4
+   }
+  },
+  {
+   "id": "github.com/krispuckett/rounds",
+   "name": "rounds",
+   "score": 18.87,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1465003685": 132
+   }
+  },
+  {
+   "id": "ph:1329023",
+   "name": "Hai",
+   "score": 18.66,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329023": 108
+   }
+  },
+  {
+   "id": "github.com/lynote-ai/ai-tutor",
+   "name": "ai-tutor",
+   "score": 18.63,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459648484": 204
+   }
+  },
+  {
+   "id": "github.com/wakeshift/server",
+   "name": "Wakeshift",
+   "score": 18.61,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50634239": 4
+   }
+  },
+  {
+   "id": "github.com/hyper-elements/hyper-elements",
+   "name": "Hyper Elements",
+   "score": 18.61,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50634302": 4
+   }
+  },
+  {
+   "id": "github.com/stormbrawlersack/legwork-osint-ai-investigator",
+   "name": "legwork-osint-ai-investigator",
+   "score": 18.39,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456635592": 251
+   }
+  },
+  {
+   "id": "github.com/bhushan/getsecondbrain.io",
+   "name": "Second Brain",
+   "score": 18.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50615312": 6
+   }
+  },
+  {
+   "id": "github.com/ccarter01011/traxagent-claude-plugin",
+   "name": "traxagent-claude-plugin",
+   "score": 18.15,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1461695121": 173
+   }
+  },
+  {
+   "id": "ph:1329892",
+   "name": "Omi X 2.0",
+   "score": 17.96,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329892": 100
+   }
+  },
+  {
+   "id": "plugins.netbeans.apache.org",
+   "name": "NetBeans-Native AI Harness for Enterprise Java",
+   "score": 17.91,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50632046": 4
+   }
+  },
+  {
+   "id": "github.com/therandomsecurityguy/signet",
+   "name": "signet",
+   "score": 17.91,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457330625": 227
+   }
+  },
+  {
+   "id": "github.com/mdexa-ai/mdexa-ai-native-database",
+   "name": "mdexa-ai-native-database",
+   "score": 17.67,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1458770822": 202
+   }
+  },
+  {
+   "id": "github.com/usetuff/tuff",
+   "name": "tuff",
+   "score": 17.43,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457199238": 215
+   }
+  },
+  {
+   "id": "ph:1323229",
+   "name": "RelayRunner",
+   "score": 17.26,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1323229": 93
+   }
+  },
+  {
+   "id": "github.com/yijiejiang/kaogong-school",
+   "name": "kaogong-school",
+   "score": 17.19,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459837840": 167
+   }
+  },
+  {
+   "id": "github.com/jasonsutter87/sketchcraft",
+   "name": "sketchcraft",
+   "score": 16.95,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456302476": 201
+   }
+  },
+  {
+   "id": "taskless.io",
+   "name": "Taskless",
+   "score": 16.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50603421": 7
+   }
+  },
+  {
+   "id": "github.com/hackclub/orchard",
+   "name": "orchard",
+   "score": 16.71,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460853104": 142
+   }
+  },
+  {
+   "id": "ph:1328124",
+   "name": "3way.Social MCP",
+   "score": 16.55,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1328124": 91
+   }
+  },
+  {
+   "id": "github.com/kivanow/sessionly",
+   "name": "sessionly",
+   "score": 16.46,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456845813": 189
+   }
+  },
+  {
+   "id": "harny.dev",
+   "name": "Harny",
+   "score": 16.25,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50625336": 4
+   }
+  },
+  {
+   "id": "ph:1330047",
+   "name": "MAGI-2",
+   "score": 15.5,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330047": 88
+   }
+  },
+  {
+   "id": "ph:1330047",
+   "name": "MAGI-2",
+   "score": 15.5,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330047": 88
+   }
+  },
+  {
+   "id": "github.com/raycollabs/docxtract",
+   "name": "Docxtract",
+   "score": 14.86,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50635477": 3
+   }
+  },
+  {
+   "id": "ph:1329814",
+   "name": "Falcon by Vybe",
+   "score": 14.44,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329814": 86
+   }
+  },
+  {
+   "id": "ph:1326465",
+   "name": "eluna",
+   "score": 13.73,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1326465": 85
+   }
+  },
+  {
+   "id": "vybe.build",
+   "name": "Competitive Intel analysis from 20-skill agent pipeline",
+   "score": 13.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50632891": 3
+   }
+  },
+  {
+   "id": "agent-home.ai",
+   "name": "Gal",
+   "score": 13.2,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50621748": 4
+   }
+  },
+  {
+   "id": "ph:1325269",
+   "name": "VibeCode.surf",
+   "score": 12.68,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1325269": 84
+   }
+  },
+  {
+   "id": "ph:1325033",
+   "name": "Tray",
+   "score": 12.68,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1325033": 84
+   }
+  },
+  {
+   "id": "multiplecodex.com",
+   "name": "Sessions Pro for Codex",
+   "score": 12.64,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50620918": 4
+   }
+  },
+  {
+   "id": "ph:1312113",
+   "name": "Continual-ARC",
+   "score": 11.27,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1312113": 82
+   }
+  },
+  {
+   "id": "ph:1329703",
+   "name": "MemoryWorks",
+   "score": 11.27,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329703": 82
+   }
+  },
+  {
+   "id": "qufei1993.github.io",
+   "name": "Ditching Markdown for an interactive AI Agent guide in pure HTML",
+   "score": 11.11,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50628070": 3
+   }
+  },
+  {
+   "id": "quotelinks.com",
+   "name": "Stock News API",
+   "score": 11.11,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50603754": 5
+   }
+  },
+  {
+   "id": "ph:1316963",
+   "name": "Tendeck",
+   "score": 10.21,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1316963": 80
+   }
+  },
+  {
+   "id": "ph:1329858",
+   "name": "Blink",
+   "score": 9.5,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329858": 79
+   }
+  },
+  {
+   "id": "github.com/intelligible/elbi",
+   "name": "ELBI",
+   "score": 9.45,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50611885": 4
+   }
+  },
+  {
+   "id": "github.com/cklose2000/rowkeep",
+   "name": "Rowkeep",
+   "score": 9.45,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50626952": 3
+   }
+  },
+  {
+   "id": "maverickbuilds.app",
+   "name": "Build planning",
+   "score": 9.45,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50626552": 3
+   }
+  },
+  {
+   "id": "github.com/nihongo-editor/crypto-accumulation-scanner",
+   "name": "crypto-accumulation-scanner",
+   "score": 8.54,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459175798": 153
+   }
+  },
+  {
+   "id": "ph:1316846",
+   "name": "SteerLatch",
+   "score": 8.45,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1316846": 78
+   }
+  },
+  {
+   "id": "ph:1329265",
+   "name": "file.spot",
+   "score": 8.45,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329265": 78
+   }
+  },
+  {
+   "id": "github.com/setyamickala/airdrop-agent",
+   "name": "airdrop-agent",
+   "score": 8.29,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1463836556": 104
+   }
+  },
+  {
+   "id": "nestdaddy.com",
+   "name": "NestDaddy Memory",
+   "score": 7.92,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50599108": 5
+   }
+  },
+  {
+   "id": "github.com/kaellee335/enterprise-support-agent-v2",
+   "name": "enterprise-support-agent-v2",
+   "score": 7.81,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459463155": 142
+   }
+  },
+  {
+   "id": "github.com/domush/antigravity-plugin-context-mode",
+   "name": "antigravity-plugin-context-mode",
+   "score": 7.57,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1458117406": 149
+   }
+  },
+  {
+   "id": "ph:1314978",
+   "name": "PartGenie 2.0",
+   "score": 7.4,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1314978": 76
+   }
+  },
+  {
+   "id": "github.com/tthanh2k6/turbo-browser-mcp",
+   "name": "turbo-browser-mcp",
+   "score": 7.33,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457717100": 152
+   }
+  },
+  {
+   "id": "github.com/tiwe0/runidbg",
+   "name": "runidbg",
+   "score": 7.09,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1464084020": 85
+   }
+  },
+  {
+   "id": "github.com/morajabi/poo",
+   "name": "poo",
+   "score": 6.85,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459122623": 120
+   }
+  },
+  {
+   "id": "ph:1329880",
+   "name": "Statefold",
+   "score": 6.69,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329880": 75
+   }
+  },
+  {
+   "id": "github.com/byttrade/bytx-skills",
+   "name": "bytx-skills",
+   "score": 6.61,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1462891543": 89
+   }
+  },
+  {
+   "id": "github.com/claude-settings-xyz/claudia",
+   "name": "Claudia",
+   "score": 6.25,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50619598": 3
+   }
+  },
+  {
+   "id": "github.com/andyhuo520/beanpod",
+   "name": "beanpod",
+   "score": 6.13,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459769414": 105
+   }
+  },
+  {
+   "id": "ph:1329778",
+   "name": "Hold'em",
+   "score": 5.99,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329778": 73
+   }
+  },
+  {
+   "id": "github.com/bluesky-social/diderot",
+   "name": "diderot",
+   "score": 5.89,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1466005580": 59
+   }
+  },
+  {
+   "id": "github.com/datadrivenconstruction/openconstructiondesign",
+   "name": "OpenConstructionDesign",
+   "score": 5.65,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1464364221": 70
+   }
+  },
+  {
+   "id": "ph:1329844",
+   "name": "Notely",
+   "score": 5.28,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329844": 73
+   }
+  },
+  {
+   "id": "github.com/secfathy/otpkit",
+   "name": "otpkit",
+   "score": 5.17,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1461542779": 84
+   }
+  },
+  {
+   "id": "github.com/xhjkl/please",
+   "name": "`please-cli`",
+   "score": 5.14,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50615035": 3
+   }
+  },
+  {
+   "id": "github.com/dissolve-ui/dissolve",
+   "name": "dissolve",
+   "score": 4.93,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459076003": 100
+   }
+  },
+  {
+   "id": "github.com/manimaran-tech/bridge",
+   "name": "bridge",
+   "score": 4.69,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1461593922": 79
+   }
+  },
+  {
+   "id": "ph:1329861",
+   "name": "PeerBand",
+   "score": 4.58,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329861": 69
+   }
+  },
+  {
+   "id": "github.com/timaga/noda-local-ai-notes",
+   "name": "noda-local-ai-notes",
+   "score": 3.96,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456898262": 104
+   }
+  },
+  {
+   "id": "tilen.cc",
+   "name": "Tilen",
+   "score": 3.89,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50612145": 3
+   }
+  },
+  {
+   "id": "github.com/dharmeshgurnani/codeotter",
+   "name": "CodeOtter",
+   "score": 3.89,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50611577": 3
+   }
+  },
+  {
+   "id": "github.com/punit2911/meridian-multimodal-rag",
+   "name": "meridian-multimodal-rag",
+   "score": 3.72,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459972500": 74
+   }
+  },
+  {
+   "id": "ph:1321904",
+   "name": " CodeRabbit Verify",
+   "score": 3.52,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1321904": 66
+   }
+  },
+  {
+   "id": "ph:1329544",
+   "name": "Qube",
+   "score": 3.52,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329544": 66
+   }
+  },
+  {
+   "id": "github.com/felixbfx/mulecreate",
+   "name": "MuleCreate",
+   "score": 3.48,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460055581": 72
+   }
+  },
+  {
+   "id": "github.com/keli-wen/cospan",
+   "name": "cospan",
+   "score": 3.25,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459096377": 76
+   }
+  },
+  {
+   "id": "github.com/spearsheep/anima-brain",
+   "name": "anima-brain",
+   "score": 3.0,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457016136": 88
+   }
+  },
+  {
+   "id": "github.com/yocontra/pulsar",
+   "name": "pulsar",
+   "score": 2.65,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460848622": 63
+   }
+  },
+  {
+   "id": "github.com/yapengl490-cmd/order-policy-assistant",
+   "name": "order-policy-assistant",
+   "score": 2.65,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1463843352": 49
+   }
+  },
+  {
+   "id": "github.com/kenzz-devv/open-webui-talora-ai-workspace",
+   "name": "open-webui-talora-ai-workspace",
+   "score": 2.28,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1462897554": 48
+   }
+  },
+  {
+   "id": "github.com/onlyterp/turnpack",
+   "name": "turnpack",
+   "score": 2.04,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456202753": 67
+   }
+  },
+  {
+   "id": "github.com/salespeak-ai/inbox-envoy",
+   "name": "Inbox Envoy",
+   "score": 1.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50605502": 3
+   }
+  },
+  {
+   "id": "github.com/golden-66/agentic-rag-kb",
+   "name": "agentic-rag-kb",
+   "score": 1.8,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459507524": 44
+   }
+  },
+  {
+   "id": "github.com/lehoanganhtai13/archmancer",
+   "name": "archmancer",
+   "score": 1.56,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1463733491": 22
+   }
+  },
+  {
+   "id": "ph:1330145",
+   "name": "OpenEight",
+   "score": 1.41,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1330145": 63
+   }
+  },
+  {
+   "id": "github.com/axelered/papyrus",
+   "name": "papyrus",
+   "score": 1.32,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1460385173": 28
+   }
+  },
+  {
+   "id": "github.com/mitdbg/pgvectorfast",
+   "name": "pgvectorfast",
+   "score": 1.08,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1458428637": 28
+   }
+  },
+  {
+   "id": "github.com/donovancraig54/buz-ai",
+   "name": "buz-ai",
+   "score": 0.84,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1459250031": 26
+   }
+  },
+  {
+   "id": "github.com/buberlo/aaf-gate",
+   "name": "Aaf-gate",
+   "score": 0.83,
+   "confidence": "Baixa",
+   "metrics": {
+    "hn:50604524": 3
+   }
+  },
+  {
+   "id": "github.com/donovancraig54/ai-code-executor",
+   "name": "ai-code-executor",
+   "score": 0.6,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1456285237": 29
+   }
+  },
+  {
+   "id": "github.com/myballast/ballast",
+   "name": "ballast",
+   "score": 0.36,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1457718327": 26
+   }
+  },
+  {
+   "id": "ph:1329988",
+   "name": "GibHub",
+   "score": 0.35,
+   "confidence": "Baixa",
+   "metrics": {
+    "ph:1329988": 60
+   }
+  },
+  {
+   "id": "github.com/anandapurva55/agentic-claims-adjudication-aws",
+   "name": "agentic-claims-adjudication-aws",
+   "score": 0.12,
+   "confidence": "Baixa",
+   "metrics": {
+    "gh:1458640645": 23
+   }
+  }
+ ]
+}

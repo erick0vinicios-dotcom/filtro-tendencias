@@ -1,6 +1,49 @@
 [general]
 log_level = "INFO"
 raw_dir = "data/raw"
+data_dir = "data"
+
+[scoring]
+max_items = 300
+min_sources_for_presence = 2
+multi_source_full_at = 3
+
+[scoring.weights]
+attention = 0.5
+multi_source = 0.3
+revenue = 0.2
+
+[history]
+growth_days = [1, 7]
+
+[category]
+keywords = [
+  "ai", "llm", "llms", "gpt", "chatgpt", "openai", "claude", "gemini",
+  "agent", "agents", "agentic", "copilot", "chatbot", "assistant",
+  "rag", "mcp", "machine learning", "ml", "neural", "embeddings", "inference", "prompt", "prompts",
+  "automation", "automate", "automated", "automates", "workflow", "workflows",
+  "no-code", "nocode", "low-code", "saas", "b2b", "api", "crm", "analytics",
+  "voice", "transcription", "vibe coding", "vibe-coded",
+]
+topics = [
+  "artificial-intelligence", "saas", "developer-tools", "productivity", "no-code",
+  "marketing-automation", "sales", "analytics", "business-intelligence", "task-management",
+  "vibe-coding", "ai", "llm", "ai-agents", "generative-ai", "mcp", "automation", "rag",
+  "machine-learning", "chatgpt",
+]
+exclude_keywords = []
+
+[unify]
+max_items_per_source = 3
+name_match_min_length = 5
+name_stopwords = [
+  "agent", "agents", "studio", "assistant", "copilot", "chatbot", "server", "client",
+  "pilot", "flow", "tools", "platform", "workspace", "openai", "claude", "github",
+]
+hosting_suffixes = [
+  "github.io", "pages.dev", "vercel.app", "netlify.app", "onrender.com", "fly.dev",
+  "herokuapp.com", "replit.app", "streamlit.app", "hf.space", "web.app", "framer.website",
+]
 
 [unify.shared_hosts]
 "github.com" = 2

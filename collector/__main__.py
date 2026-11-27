@@ -6,6 +6,7 @@ import sys
 import tomllib
 from pathlib import Path
 
+from collector import ranking
 from collector.context import Context
 from collector.errors import SourceSkipped
 from collector.logs import setup_logging
@@ -28,15 +29,26 @@ def main(argv=None):
     raw_dir = Path(general.get("raw_dir", "data/raw"))
     raw_dir.mkdir(parents=True, exist_ok=True)
 
+    data_dir = Path(general.get("data_dir", "data"))
+
     log.info("coleta iniciada em %s", ctx.now_iso)
-    report = run_sources(config.get("sources", {}), args.only, ctx, raw_dir)
+    report, items_by_source = run_sources(config.get("sources", {}), args.only, ctx, raw_dir)
     write_json(raw_dir / "_run.json", {"started_at": ctx.now_iso, "sources": report})
 
     attempted = [status for status in report.values() if status["status"] in ("ok", "error")]
     failed = [status for status in attempted if status["status"] == "error"]
     skipped = [name for name, status in report.items() if status["status"] == "skipped"]
     log.info("coleta concluída: %d ok, %d com erro, %d puladas", len(attempted) - len(failed), len(failed), len(skipped))
-    return 1 if attempted and len(failed) == len(attempted) else 0
+
+    if not items_by_source:
+        log.error("nenhuma fonte trouxe dados; latest.json e histórico mantidos como estavam")
+        return 1
+    if args.only:
+        log.info("rodada parcial (--only); ranking não foi regerado")
+        return 0
+    latest = ranking.build(items_by_source, report, config, ctx, data_dir / "history")
+    ranking.write_outputs(latest, ctx, data_dir)
+    return 0
 
 
 def load_env_file(path):
@@ -50,6 +62,7 @@ def load_env_file(path):
 
 def run_sources(sources_config, only, ctx, raw_dir):
     report = {}
+    items_by_source = {}
     for name, module in SOURCES.items():
         settings = sources_config.get(name, {})
         if only and name not in only:
@@ -72,7 +85,8 @@ def run_sources(sources_config, only, ctx, raw_dir):
         write_json(raw_dir / f"{name}.json", {"source": name, "collected_at": ctx.now_iso, "count": len(items), "items": items})
         log.info("fonte %s: %d itens salvos em %s", name, len(items), raw_dir / f"{name}.json")
         report[name] = {"status": "ok", "count": len(items)}
-    return report
+        items_by_source[name] = items
+    return report, items_by_source
 
 
 def write_json(path, data):
