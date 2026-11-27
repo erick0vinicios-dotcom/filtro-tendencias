@@ -34,8 +34,6 @@ lookback_hours = 48
 page_size = 20
 max_pages = 5
 min_remaining_quota = 500
-resolve_websites = true
-workers = 4
 min_age_hours = 2.0
 
 [sources.github]

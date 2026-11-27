@@ -1,12 +1,11 @@
 import logging
 import os
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
 from collector.context import iso
 from collector.errors import SourceSkipped
-from collector.http import rate_limit, request_json, resolve_redirect
-from collector.urls import clean_url, product_key
+from collector.http import rate_limit, request_json
+from collector.urls import clean_url
 
 GRAPHQL_URL = "https://api.producthunt.com/v2/api/graphql"
 QUERY = """
@@ -33,10 +32,7 @@ def collect(settings, ctx):
     headers = {"Authorization": f"Bearer {token}"}
 
     posts = fetch_posts(settings, ctx, headers)
-    log.info("resolvendo o site real de %d produtos", len(posts))
-    websites = resolve_websites(posts, settings)
-
-    items = [normalize(post, websites.get(post["id"]), settings, ctx) for post in posts]
+    items = [normalize(post, settings, ctx) for post in posts]
     items.sort(key=lambda item: item["velocity"], reverse=True)
     return items
 
@@ -74,22 +70,7 @@ def fetch_posts(settings, ctx, headers):
     return posts
 
 
-def resolve_websites(posts, settings):
-    if not settings["resolve_websites"]:
-        return {}
-
-    def resolve(post):
-        try:
-            return post["id"], clean_url(resolve_redirect(post["website"]))
-        except Exception as error:
-            log.warning("não consegui resolver o site de %s: %s", post["name"], error)
-            return post["id"], None
-
-    with ThreadPoolExecutor(max_workers=settings["workers"]) as pool:
-        return {post_id: url for post_id, url in pool.map(resolve, posts) if url}
-
-
-def normalize(post, website, settings, ctx):
+def normalize(post, settings, ctx):
     created = datetime.fromisoformat(post["createdAt"].replace("Z", "+00:00"))
     age_hours = ctx.hours_since(created)
     votes = post.get("votesCount", 0)
@@ -98,8 +79,8 @@ def normalize(post, website, settings, ctx):
         "source_id": f"ph:{post['id']}",
         "name": post["name"],
         "description": post.get("tagline") or "",
-        "url": website,
-        "key": product_key(website, ctx.shared_hosts),
+        "url": clean_url(post["website"]),
+        "key": None,
         "alt_keys": [],
         "evidence_url": clean_url(post["url"]),
         "metric": {"name": "votes", "value": votes},
