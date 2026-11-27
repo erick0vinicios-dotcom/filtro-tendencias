@@ -1,0 +1,24 @@
+[general]
+log_level = "INFO"
+raw_dir = "data/raw"
+
+[unify.shared_hosts]
+"github.com" = 2
+"gitlab.com" = 2
+"codeberg.org" = 2
+"huggingface.co" = 2
+"apps.apple.com" = 3
+"chromewebstore.google.com" = 3
+"marketplace.visualstudio.com" = 2
+"medium.com" = 1
+"x.com" = 1
+"twitter.com" = 1
+"youtube.com" = 1
+
+[sources.hackernews]
+enabled = true
+max_items = 200
+workers = 10
+lookback_hours = 72
+min_points = 3
+min_age_hours = 2.0
