@@ -1,5 +1,7 @@
-from collector.sources import hackernews
+from collector.sources import github, hackernews, producthunt
 
 SOURCES = {
     "hackernews": hackernews,
+    "producthunt": producthunt,
+    "github": github,
 }

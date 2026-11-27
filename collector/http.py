@@ -15,6 +15,14 @@ class HttpError(Exception):
     pass
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+_no_redirect_opener = urllib.request.build_opener(_NoRedirect)
+
+
 def request_json(url, method="GET", payload=None, headers=None, timeout=20, retries=3, backoff=2.0):
     request_headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
     request_headers.update(headers or {})
@@ -29,7 +37,7 @@ def request_json(url, method="GET", payload=None, headers=None, timeout=20, retr
         wait = backoff ** attempt
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
-                return json.load(response), dict(response.headers)
+                return json.load(response), response.headers
         except urllib.error.HTTPError as error:
             last_error = error
             if error.code not in RETRYABLE_STATUS:
@@ -48,3 +56,25 @@ def request_json(url, method="GET", payload=None, headers=None, timeout=20, retr
 def get_json(url, **kwargs):
     data, _ = request_json(url, **kwargs)
     return data
+
+
+def rate_limit(headers, remaining_name, reset_name, reset_is_epoch):
+    remaining = headers.get(remaining_name)
+    reset = headers.get(reset_name)
+    if remaining is None or reset is None:
+        return None
+    seconds = float(reset) - time.time() if reset_is_epoch else float(reset)
+    return int(remaining), max(seconds, 0.0)
+
+
+def resolve_redirect(url, timeout=10):
+    request = urllib.request.Request(url, method="HEAD", headers={"User-Agent": USER_AGENT})
+    try:
+        with _no_redirect_opener.open(request, timeout=timeout) as response:
+            return response.url
+    except urllib.error.HTTPError as error:
+        if 300 <= error.code < 400 and error.headers.get("Location"):
+            return error.headers["Location"]
+        raise HttpError(f"HEAD {url}: {error}") from error
+    except (urllib.error.URLError, TimeoutError) as error:
+        raise HttpError(f"HEAD {url}: {error}") from error

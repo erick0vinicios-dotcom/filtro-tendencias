@@ -1,11 +1,13 @@
 import argparse
 import json
 import logging
+import os
 import sys
 import tomllib
 from pathlib import Path
 
 from collector.context import Context
+from collector.errors import SourceSkipped
 from collector.logs import setup_logging
 from collector.sources import SOURCES
 
@@ -18,6 +20,7 @@ def main(argv=None):
     parser.add_argument("--only", nargs="+", choices=sorted(SOURCES), help="roda só as fontes indicadas")
     args = parser.parse_args(argv)
 
+    load_env_file(Path(".env"))
     config = tomllib.loads(Path(args.config).read_text(encoding="utf-8"))
     general = config.get("general", {})
     setup_logging(general.get("log_level", "INFO"))
@@ -29,10 +32,20 @@ def main(argv=None):
     report = run_sources(config.get("sources", {}), args.only, ctx, raw_dir)
     write_json(raw_dir / "_run.json", {"started_at": ctx.now_iso, "sources": report})
 
-    attempted = [status for status in report.values() if status["status"] != "disabled"]
+    attempted = [status for status in report.values() if status["status"] in ("ok", "error")]
     failed = [status for status in attempted if status["status"] == "error"]
-    log.info("coleta concluída: %d fontes ok, %d com erro", len(attempted) - len(failed), len(failed))
+    skipped = [name for name, status in report.items() if status["status"] == "skipped"]
+    log.info("coleta concluída: %d ok, %d com erro, %d puladas", len(attempted) - len(failed), len(failed), len(skipped))
     return 1 if attempted and len(failed) == len(attempted) else 0
+
+
+def load_env_file(path):
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        name, found, value = line.partition("=")
+        if found and name.strip() and not name.lstrip().startswith("#"):
+            os.environ.setdefault(name.strip(), value.strip().strip("\"'"))
 
 
 def run_sources(sources_config, only, ctx, raw_dir):
@@ -48,6 +61,10 @@ def run_sources(sources_config, only, ctx, raw_dir):
         log.info("fonte %s: iniciando", name)
         try:
             items = module.collect(settings, ctx)
+        except SourceSkipped as reason:
+            log.warning("fonte %s pulada: %s", name, reason)
+            report[name] = {"status": "skipped", "count": 0, "error": str(reason)}
+            continue
         except Exception as error:
             log.exception("fonte %s falhou; seguindo para as próximas", name)
             report[name] = {"status": "error", "count": 0, "error": str(error)}

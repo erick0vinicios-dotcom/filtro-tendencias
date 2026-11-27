@@ -1,4 +1,6 @@
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
+TRACKING_PARAMS = {"ref", "source", "via", "fbclid", "gclid"}
 
 
 def product_key(url, shared_hosts):
@@ -18,3 +20,15 @@ def product_key(url, shared_hosts):
         return host
     segments = [segment.lower() for segment in parts.path.split("/") if segment][:depth]
     return "/".join([host, *segments])
+
+
+def clean_url(url):
+    if not url:
+        return url
+    parts = urlsplit(url.strip())
+    query = [
+        (name, value)
+        for name, value in parse_qsl(parts.query, keep_blank_values=True)
+        if name.lower() not in TRACKING_PARAMS and not name.lower().startswith("utm_")
+    ]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), ""))

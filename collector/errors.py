@@ -1,0 +1,2 @@
+class SourceSkipped(Exception):
+    pass
